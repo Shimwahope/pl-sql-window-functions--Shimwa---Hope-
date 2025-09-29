@@ -1,4 +1,6 @@
-[Database with PL.docx](https://github.com/user-attachments/files/22603185/Database.with.PL.docx)
+SCREEN SHOOTS AND ER DIAGRAM ARE IN THE DOCUMENT BELOW
+[Database.with.PL.odt](https://github.com/user-attachments/files/22603390/Database.with.PL.odt)
+
 # pl-sql-window-functions--Shimwa---Hope-
 PL/SQL assignment answer
 
@@ -84,5 +86,3 @@ YouTube tutorial on ranks: https://www.youtube.com/watch?v=rIcB4zMYMas
 Tutorial on ranks and navigation: https://www.youtube.com/watch?v=Ww71knvhQ-s&t=196s
 
 https://www.youtube.com/watch?v=nHEEyX_yDvo
-SCreenshoot and ER diagram
-[Database with PL.odt](https://github.com/user-attachments/files/22603215/Database.with.PL.odt)
