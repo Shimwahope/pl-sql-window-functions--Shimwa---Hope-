@@ -22,3 +22,46 @@ properties:Houses or unit being sold:Id,region_id,address,model_id,listed_price
 Region	:Districts where properties are located	:Id,name
 Model	:Types of properties sold	:Id,.name
 
+Step 4:
+1.ranking:
+>Row_ number: ranks without douplicating rank for similar values.
+select id,listed_price, row_number() over(order by listed_price)as Row_numbers from properties;
+>Rank : rank while douplicating ranks for similar values and continue numbering without skipping a digit
+select id,listed_price, rank() over(order by listed_price)as Rank from properties;
+>Dense_rank: rank while douplicating ranks for similar values but skip diggits that were ranked the same. 
+select id,listed_price, dense_rank() over(order by listed_price)as Dense_rank from properties;
+2.Aggregates:
+>Avg calculates the average of numbers,
+select avg(price) as Average_price from sale;
+>min display the minimum value
+select min(price) as minimum_price from sale;
+>max display the maximum value.
+select max(price) as maximum_price from sale;
+3.Navigation:
+>lead() show the next value 
+select price,date,lead(price) over (order by date asc) as next_price from sale;
+>lag() shows previous value
+select price,date,lag(price) over (order by date asc) as previous_price from sale;
+4.Distribution:
+>cume_dist(): calculate cumulative distribution and give answer between 1 and 0
+select agent_id,price,cume_dist() over (order by price desc) as cume_distribution from sale;
+>Ntile(n): creates segments according to the number in the brackets.
+select agent_id,price,ntile(3) over (order by price desc) as sale_segment from sale;
+
+Step 6:
+1.descriptive: The queries show that in 21 properties,13 have been sold by all the agent with agent 1,5 (David,Isheja)the best agents and Gikondo the best selling region.
+2. Diagnosis: People have been needing properties in Gikondo as it is in the city and we have many properties there.
+3.Prescription:We have to increase our agents and properties so that the sales the next month  may increase even in other regions.
+
+Step 7:
+Reference:
+YouTube tutorial on ranks: https://www.youtube.com/watch?v=rIcB4zMYMas
+Tutorial on ranks and navigation: https://www.youtube.com/watch?v=Ww71knvhQ-s&t=196s
+https://www.youtube.com/watch?v=nHEEyX_yDvo
+Tutorial on Ntile: https://www.youtube.com/watch?v=g0J7L-HfQAU&t=39s
+https://www.geeksforgeeks.org/sql/ntile-function-in-sql-server/
+Tutorial on cume_dist: https://www.youtube.com/watch?v=8PxLGKsrXhE
+https://www.geeksforgeeks.org/postgresql/postgresql-cume_dist-function/
+
+
+
