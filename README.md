@@ -81,8 +81,11 @@ Step 6:
 
 Step 7:
 Reference:
-YouTube tutorial on ranks: https://www.youtube.com/watch?v=rIcB4zMYMas
+1. YouTube tutorial on ranks: https://www.youtube.com/watch?v=rIcB4zMYMas
+2. Tutorial on ranks and navigation: https://www.youtube.com/watch?v=Ww71knvhQ-s&t=196s
+3. https://www.youtube.com/watch?v=nHEEyX_yDvo
+4. Tutorial on Ntile: https://www.youtube.com/watch?v=g0J7L-HfQAU&t=39s
+5. https://www.geeksforgeeks.org/sql/ntile-function-in-sql-server/
+6. Tutorial on cume_dist: https://www.youtube.com/watch?v=8PxLGKsrXhE
+7. https://www.geeksforgeeks.org/postgresql/postgresql-cume_dist-function/
 
-Tutorial on ranks and navigation: https://www.youtube.com/watch?v=Ww71knvhQ-s&t=196s
-
-https://www.youtube.com/watch?v=nHEEyX_yDvo
