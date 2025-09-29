@@ -1,3 +1,4 @@
+[Database with PL.docx](https://github.com/user-attachments/files/22603185/Database.with.PL.docx)
 # pl-sql-window-functions--Shimwa---Hope-
 PL/SQL assignment answer
 
@@ -29,6 +30,7 @@ Table	Purpose	Column
 3. properties:Houses or unit being sold:Id,region_id,address,model_id,listed_price
 4. Region	:Districts where properties are located	:id,name
 5. Model	:Types of properties sold	:id,.name
+
 
 
 Step 4:
@@ -82,14 +84,5 @@ YouTube tutorial on ranks: https://www.youtube.com/watch?v=rIcB4zMYMas
 Tutorial on ranks and navigation: https://www.youtube.com/watch?v=Ww71knvhQ-s&t=196s
 
 https://www.youtube.com/watch?v=nHEEyX_yDvo
-
-Tutorial on Ntile: https://www.youtube.com/watch?v=g0J7L-HfQAU&t=39s
-
-https://www.geeksforgeeks.org/sql/ntile-function-in-sql-server/
-
-Tutorial on cume_dist: https://www.youtube.com/watch?v=8PxLGKsrXhE
-
-https://www.geeksforgeeks.org/postgresql/postgresql-cume_dist-function/
-
-
-
+SCreenshoot and ER diagram
+[Database with PL.odt](https://github.com/user-attachments/files/22603215/Database.with.PL.odt)
